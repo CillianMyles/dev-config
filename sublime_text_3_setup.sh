@@ -1,7 +1,7 @@
-# Sublime Text 2
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
+# Sublime Text 3
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get install sublime-text-installer
 
 # Install the Package Manager 
 https://packagecontrol.io/installation
@@ -16,10 +16,10 @@ https://github.com/artifactdev/flatgrammer-theme/archive/master.zip
 cd ~/Downloads/
 unzip flatgrammer-theme-master.zip
 mv flatgrammer-theme-master Theme\ -\ Flatgrammer
-cp -r Theme\ -\ Flatgrammer/ /home/cillian/.config/sublime-text-2/Packages
+cp -r Theme\ -\ Flatgrammer/ ~/.config/sublime-text-3/Packages
 
 # Open User preferences
-nano ~/.config/sublime-text-2/Packages/User/Preferences.sublime-settings
+nano ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
 # Add the following, save, and then restart Sublime
 {
