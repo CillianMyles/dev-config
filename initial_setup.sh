@@ -19,6 +19,8 @@ sudo apt-get install
 # Chromium Web Browser -- Ubuntu Software Center.
 
 # Install Java 8 
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
 sudo apt-get install oracle-java8-installer
 java -version
 # java version "1.8.0_45"
@@ -28,9 +30,6 @@ sudo apt-get install oracle-java8-set-default
 
 # Install git.
 sudo apt-get install git
-
-# Set up SSH key for GitHub >> Tutorial
-https://help.github.com/articles/generating-ssh-keys/
 
 # Install FileZilla (FTP).
 sudo apt-get install filezilla
@@ -43,3 +42,6 @@ sudo apt-get install pidgin
 
 # Install Marker (screenshot annotation/sharing service).
 https://insync.io/marker # Download
+
+# Set up SSH key for GitHub >> Tutorial
+https://help.github.com/articles/generating-ssh-keys/
