@@ -1,3 +1,13 @@
+# Don't include online search results in unity search
+System Settings > Security & Privacy > Search
+
+# Menu options in title bar
+sudo apt-get install gnome-tweak-tool
+gnome-tweak-tool
+language option > enable kill the X server by ctrl-alt-backspace
+system settings > appaearance > show the menus for a window
+> in the window's title bar
+
 # Ensure correct updates occur.
 # Add the following line to /etc/apt/sources.list.d/sources.list
 deb http://archive.ubuntu.com/ubuntu trusty main universe restricted multiverse
