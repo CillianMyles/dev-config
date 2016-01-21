@@ -60,8 +60,11 @@ sudo apt-get install
   sqlitebrowser
   keepass2
 
-# Install Marker (screenshot annotation/sharing service).
-https://insync.io/marker # Download
+# Install Marker (screenshot annotation/sharing service) - download from:
+https://insync.io/marker
+
+# Install DatabaseVisualizer - download & install .deb package from
+https://www.dbvis.com/download/ 
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys/
