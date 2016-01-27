@@ -22,5 +22,7 @@ cp .bashrc .bashrc.2015.07.30.android-studio
 # Edit the bashrc file to add Studio's bin folder to PATH
 nano .bashrc ... or ... subl .bashrc
 
-# Add the following at the end of the file
-export PATH=$PATH:/opt/android-studio/bin
+# Add the Android Studio /bin directory to PATH
+export PATH="/opt/android-studio/bin/:$PATH"
+export PATH="/home/cillian/Android/Sdk/tools/:$PATH"
+export PATH="/home/cillian/Android/Sdk/platform-tools/:$PATH"
