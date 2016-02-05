@@ -25,7 +25,7 @@ cd ~/Desktop/marker-temp/ && tar -cvf ../marker.tgz *
 # Copy this file to USB or similar.
 
 # When on secondary machine you wish to install marker on:
-cp /path/to/marker.tgz /
+sudo cp /path/to/marker.tgz /
 
 # Unzip the files.
 sudo tar -xvf marker.tgz
@@ -35,3 +35,6 @@ sudo ldconfig
 
 # Test.
 marker start
+
+# Remember to delete the archive file from your root directory.
+sudo rm marker.tgz
