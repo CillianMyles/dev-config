@@ -37,4 +37,4 @@ sudo ldconfig
 marker start
 
 # Remember to delete the archive file from your root directory.
-sudo rm marker.tgz
+sudo rm /marker.tgz
