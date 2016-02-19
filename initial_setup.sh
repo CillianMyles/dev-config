@@ -32,27 +32,8 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 sudo apt-get install oracle-java8-set-default
 
-# Install git.
-sudo apt-get install git
-
-# Install FileZilla (FTP).
-sudo apt-get install filezilla
-
-# Install Meld (diff visualisation tool). 
-sudo apt-get insall meld
-
-# Insall Pidgin (XMPP client).
-sudo apt-get install pidgin
-
-# Midnight Commander.
-sudo add-apt-repository ppa:eugenesan/ppa
-sudo apt-get update
-sudo apt-get install mc
-
-# SQLite browser & KeePass2
-sudo apt-get install
-  sqlitebrowser
-  keepass2
+# Install git, filezilla, meld, pidgin, mc, sqlitebrowser, keepass2.
+sudo apt-get install git filezilla meld pidgin mc sqlitebrowser keepass2
 
 # Install Marker (screenshot annotation/sharing service) - download from:
 https://insync.io/marker
