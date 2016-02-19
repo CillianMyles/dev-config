@@ -12,18 +12,12 @@ sudo apt-get upgrade
 # Menu options in title bar
 sudo apt-get install gnome-tweak-tool
 gnome-tweak-tool
-# language option > enable kill the X server by ctrl-alt-backspace
+# Typing > enable kill the X server by ctrl-alt-backspace
 # system settings > appaearance > show the menus for a window
 # > in the window's title bar
 
 # Various tools, codecs, JRE, JDK.
-sudo apt-get install
-	gnome-tweak-tool
-	ubuntu-restricted-extras
-	libavcodec-extra
-	icedtea-plugin
-	openjdk-7-jre
-	openjdk-7-jdk
+sudo apt-get install ubuntu-restricted-extras libavcodec-extra icedtea-plugin openjdk-7-jre openjdk-7-jdk
 
 # Google Chrome -- search and follow intructions.
 # Chromium Web Browser -- Ubuntu Software Center.
