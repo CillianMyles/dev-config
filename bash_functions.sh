@@ -11,6 +11,7 @@ updateWrapperJAR(){
     action_stream="$responses_dir/DEV-action_stream.json"
     contacts="$responses_dir/DEV-contacts.json"
     deals="$responses_dir/DEV-deals.json"
+    countries="$responses_dir/DEV-countries.json"
 
     cd /home/cillian/git/android/onepagecrm/android-speed-dialler/app/libs
     ls | grep -P "^onepagecrm-api-wrapper-[\d\.]*.jar$" | xargs -d"\n" rm
@@ -27,6 +28,7 @@ updateWrapperJAR(){
     cp "$action_stream" /home/cillian/git/android/onepagecrm/android-mobile/app/src/main/assets/responses/
     cp "$contacts" /home/cillian/git/android/onepagecrm/android-mobile/app/src/main/assets/responses/
     cp "$deals" /home/cillian/git/android/onepagecrm/android-mobile/app/src/main/assets/responses/
+    cp "$countries" /home/cillian/git/android/onepagecrm/android-mobile/app/src/main/assets/responses/
 
     cd $old_dir
     echo "Version $new_version copied succesfully..."
