@@ -42,7 +42,7 @@ nano ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
     "doc",
     "coverage"
   ],
-  "font_size": 13.0,
+  "font_size": 10.0,
   "hot_exit": false,
   "ignored_packages":
   [

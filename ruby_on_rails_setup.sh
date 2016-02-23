@@ -1,4 +1,4 @@
-## RVM and Ruby (2.2.2)
+## RVM and Ruby (2.2.3)
 
 # Update
 sudo apt-get update
@@ -16,8 +16,8 @@ curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 
 # Install and verify
-rvm install 2.2.2
-rvm use 2.2.2 --default
+rvm install 2.2.3
+rvm use 2.2.3 --default
 ruby -v
 
 # Tell Rubygems not to install docs for each package locally 
@@ -27,15 +27,18 @@ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 gem install bundler
 
 
-## Rails (4.2.1)
+## Rails (4.2.4)
 
 # Install JavaScript runtime environment (node.js)
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 
+# Ensure all dependencies installed.
+sudo apt-get install libgmp-dev
+
 # Install and verify
-gem install rails -v 4.2.1
+gem install rails -v 4.2.4
 rails -v
 
 # Edit Terminal Profile Prefs
