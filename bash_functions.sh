@@ -40,15 +40,12 @@ updateDB(){
     new_file="/data/data/com.onepagecrm.android/databases/onepagecrm.db"
     destination="/home/cillian/Desktop"
 
-    cd /home/cillian/platform-tools &&
     adb devices | xargs --max-args=1 | bash -c "$(echo "adb -s") $(grep emulator) $(echo "wait-for-device")" &&
-    cd /home/cillian/Desktop &&
+    cd $destination &&
     ls | grep onepagecrm.db | xargs -d"\n" rm &&
     echo "Old onepagecrm.db deleted..."
 
-    cd /home/cillian/platform-tools &&
     adb devices | xargs --max-args=1 | bash -c "$(echo "adb -s") $(grep emulator) $(echo "wait-for-device")" &&
-    cd /home/cillian/platform-tools &&
     adb devices | xargs --max-args=1 | bash -c "$(echo "adb -s") $(grep emulator) $(echo "pull $new_file $destination")" &&
     echo "New onepagecrm.db pulled succesfully..."
 
