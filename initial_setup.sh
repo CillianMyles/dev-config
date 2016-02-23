@@ -32,8 +32,13 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 sudo apt-get install oracle-java8-set-default
 
-# Install git, filezilla, meld, pidgin, mc, sqlitebrowser, keepass2.
+# Install git, filezilla, meld, pidgin, mc, keepass2.
 sudo apt-get install git filezilla meld pidgin mc sqlitebrowser keepass2
+
+# Install SQLiteBrowser tool.
+sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
+sudo apt-get update
+sudo apt-get install sqlitebrowser
 
 # Install Marker (screenshot annotation/sharing service) - download from:
 https://insync.io/marker
