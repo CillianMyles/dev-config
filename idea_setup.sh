@@ -1,14 +1,18 @@
 # Download from JetBrains website or using wget.
-wget -O ~/Downloads/intellij.tar.gz http://download.jetbrains.com/idea/ideaIC-15.0.2.tar.gz
+wget -O ~/Downloads/intellij.tar.gz [DOWNLOAD_ADDRESS_HERE]
 
 # Unzip.
-tar xfz ~/Downloads/intellij.tar.gz
+mkdir idea && tar xfz ideaIC-[VERSION_NUMBER_HERE].tar.gz -C idea --strip-components=1
 
 # Copy to opt folder.
-sudo cp -a idea-IC-143.1184.17/. /opt/idea-15.0.2
+sudo cp -a idea/. /opt/idea-[VERSION_NUMBER_HERE]
 
 # Run.
-/opt/idea-15.0.2/bin/idea.sh
+/opt/idea-[VERSION_NUMBER_HERE]/bin/idea.sh
 
 # Create launcher.
 Tools > Create Desktop Entry
+
+# Or edit previous desktop entry.
+ls /usr/share/applications || grep idea
+subl [FILE_NAME_FROM_ABOVE]
