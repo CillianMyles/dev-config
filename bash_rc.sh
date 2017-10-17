@@ -21,7 +21,7 @@ function sync() {
     cd $old_dir
 }
 
-# Environment variables & PATH.
+# Environment variables.
 export JAVA_7="/usr/lib/jvm/java-7-openjdk-amd64"
 export JAVA_8="/usr/lib/jvm/java-8-oracle"
 export ANDROID_HOME="/home/cillian/Android/Sdk"
@@ -33,12 +33,15 @@ export JAVA_HOME="$JAVA_8"
 export JDK_HOME="$JAVA_HOME"
 export STUDIO_JDK="$JAVA_7"
 
+# Path.
+export PATH="$JAVA_HOME/bin/:$PATH"
 export PATH="$STUDIO_HOME/bin/:$PATH"
 export PATH="$ANDROID_HOME/tools/:$PATH"
 export PATH="$ANDROID_HOME/platform-tools/:$PATH"
 export PATH="$GRADLE_HOME/bin/:$PATH"
 export PATH="$QT_HOME/bin/:$PATH"
 
+# Aliases.
 alias astudio="$STUDIO_HOME/bin/studio.sh"
 alias idea="$IDEA_HOME/bin/idea.sh"
 
