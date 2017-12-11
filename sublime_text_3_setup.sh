@@ -60,5 +60,6 @@ nano ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
   "tabs_small": false,
   "theme": "Flatgrammer.sublime-theme",
   "translate_tabs_to_spaces": true,
-  "update_check": false
+  "update_check": false,
+  "highlight_modified_tabs": true
 }
