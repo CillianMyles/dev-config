@@ -22,16 +22,20 @@ function sync() {
 }
 
 # Environment variables.
-export JAVA_7="/usr/lib/jvm/java-7-openjdk-amd64"
+export JAVA_7="/usr/lib/jvm/java-7-oracle"
 export JAVA_8="/usr/lib/jvm/java-8-oracle"
+export STUDIO_STABLE="/opt/android-studio/stable"
+export STUDIO_BETA="/opt/android-studio/beta"
 export ANDROID_HOME="/home/cillian/Android/Sdk"
-export STUDIO_HOME="/opt/android-studio/2.3"
-export IDEA_HOME="/opt/idea/2017.2"
-export GRADLE_HOME="/opt/gradle/2.12"
+export STUDIO_HOME="$STUDIO_STABLE"
+export IDEA_HOME="/opt/idea/2017.3"
+export GRADLE_HOME="/opt/gradle/4.1"
 export QT_HOME="/opt/qt/5.7/gcc_64"
 export JAVA_HOME="$JAVA_8"
 export JDK_HOME="$JAVA_HOME"
-export STUDIO_JDK="$JAVA_7"
+export STUDIO_JDK="$JAVA_8"
+export FIREFOX_DEV="/opt/firefox/dev"
+export FIREFOX_NEW="/opt/firefox/new"
 
 # Path.
 export PATH="$JAVA_HOME/bin/:$PATH"
@@ -44,5 +48,7 @@ export PATH="$QT_HOME/bin/:$PATH"
 # Aliases.
 alias astudio="$STUDIO_HOME/bin/studio.sh"
 alias idea="$IDEA_HOME/bin/idea.sh"
+alias firefox-dev="$FIREFOX_DEV/firefox"
+alias firefox-new="$FIREFOX_NEW/firefox"
 
 export PATH="$PATH:$HOME/.rvm/bin" # NB - keep this at the bottom!!
