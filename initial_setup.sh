@@ -33,7 +33,7 @@ java -version
 sudo apt-get install oracle-java8-set-default
 
 # Install git, filezilla, meld, pidgin, mc, keepass2.
-sudo apt-get install git filezilla meld pidgin mc sqlitebrowser keepass2
+sudo apt-get install git filezilla meld pidgin mc keepass2
 
 # Install SQLiteBrowser tool.
 sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
