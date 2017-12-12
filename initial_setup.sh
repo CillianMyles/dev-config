@@ -32,19 +32,33 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 sudo apt-get install oracle-java8-set-default
 
-# Install git, filezilla, meld, pidgin, mc, keepass2.
-sudo apt-get install git filezilla meld pidgin mc keepass2
+# Install some essential packages.
+sudo apt-get install git mc keepass2 gimp shutter filezilla wireshark meld pidgin
+
+# Install flux (brightness tool) - install instructions:
+https://github.com/xflux-gui/fluxgui
 
 # Install SQLiteBrowser tool.
 sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
 sudo apt-get update
 sudo apt-get install sqlitebrowser
 
+# Set up SSH key for GitHub >> Tutorial
+https://help.github.com/articles/generating-ssh-keys/
+
+# TODO: Un-install newtwork manager
+# TODO: Install wicd
+
+# TODO: Install firefox developer edition
+
+# TODO: Install qt
+
+# TODO: Install gradle
+
+## DEPRECATED (all below)
+
 # Install Marker (screenshot annotation/sharing service) - download from:
 https://insync.io/marker
 
 # Install DatabaseVisualizer - download & install .deb package from
 https://www.dbvis.com/download/ 
-
-# Set up SSH key for GitHub >> Tutorial
-https://help.github.com/articles/generating-ssh-keys/
