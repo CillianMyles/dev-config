@@ -50,5 +50,6 @@ alias astudio="$STUDIO_HOME/bin/studio.sh"
 alias idea="$IDEA_HOME/bin/idea.sh"
 alias firefox-dev="$FIREFOX_DEV/firefox"
 alias firefox-new="$FIREFOX_NEW/firefox"
+alias emu="$ANDROID_HOME/tools/emulator -use-system-libs"
 
 export PATH="$PATH:$HOME/.rvm/bin" # NB - keep this at the bottom!!
