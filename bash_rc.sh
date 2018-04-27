@@ -28,8 +28,8 @@ export STUDIO_STABLE="/opt/android-studio/stable"
 export STUDIO_BETA="/opt/android-studio/beta"
 export ANDROID_HOME="/home/cillian/Android/Sdk"
 export STUDIO_HOME="$STUDIO_STABLE"
-export IDEA_HOME="/opt/idea/2017.3"
-export GRADLE_HOME="/opt/gradle/4.1"
+export IDEA_HOME="/opt/idea/2018.1"
+export GRADLE_HOME="/opt/gradle/4.4"
 export QT_HOME="/opt/qt/5.7/gcc_64"
 export JAVA_HOME="$JAVA_8"
 export JDK_HOME="$JAVA_HOME"
@@ -51,5 +51,13 @@ alias idea="$IDEA_HOME/bin/idea.sh"
 alias firefox-dev="$FIREFOX_DEV/firefox"
 alias firefox-new="$FIREFOX_NEW/firefox"
 alias emu="$ANDROID_HOME/tools/emulator -use-system-libs"
+alias postman="/opt/postman/Postman"
 
-export PATH="$PATH:$HOME/.rvm/bin" # NB - keep this at the bottom!!
+# NVM stuff.
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# RBENV stuff.
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
