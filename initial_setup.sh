@@ -55,6 +55,8 @@ https://help.github.com/articles/generating-ssh-keys/
 
 # TODO: Install gradle
 
+# TODO: Install postman
+
 ## DEPRECATED (all below)
 
 # Install Marker (screenshot annotation/sharing service) - download from:
