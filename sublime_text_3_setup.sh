@@ -1,24 +1,17 @@
 # Sublime Text 3
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get install sublime-text-installer
+snap install sublime-text
 
-# Install the Package Manager 
+# Install the Package Manager, instructions:
 https://packagecontrol.io/installation
 
-# Flatgrammer Theme 
-https://github.com/artifactdev/flatgrammer-theme
-
-# Download Zip
-https://github.com/artifactdev/flatgrammer-theme/archive/master.zip
-
-# Unzip and rename the folder to Theme - Flatgrammer
+# Download theme, unzip and rename the folder to "Theme - Flatgrammer"
 cd ~/Downloads/
-unzip flatgrammer-theme-master.zip
+wget https://github.com/artifactdev/flatgrammer-theme/archive/master.zip
+unzip master.zip
 mv flatgrammer-theme-master Theme\ -\ Flatgrammer
 cp -r Theme\ -\ Flatgrammer/ ~/.config/sublime-text-3/Packages
 
-# Open User preferences
+# Open User preferences (ENSURE SUBLIME IS NOT RUNNING!!!)
 nano ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 
 # Add the following, save, and then restart Sublime
