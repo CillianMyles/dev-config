@@ -41,4 +41,3 @@ export PATH="$GRADLE_HOME/bin/:$PATH"
 # Aliases.
 alias astudio="$STUDIO_HOME/bin/studio.sh"
 alias idea="$IDEA_HOME/bin/idea.sh"
-
