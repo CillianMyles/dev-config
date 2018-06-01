@@ -43,8 +43,6 @@ sudo apt-get install solaar
 # Franz -- web search.
 # Gradle -- web search.
 
-# TODO: Install postman
-
 ## DEPRECATED (all below)
 
 # Install Marker (screenshot annotation/sharing service) - download from:

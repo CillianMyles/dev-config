@@ -16,7 +16,7 @@ printf "\nStart time (date): \n$CURRENT_DATE\n" >> $SUMMARY_FILE
 OLD_DIR=$PWD
 cd /
 
-# Backs up home and opt directories.
+# Backs up home and opt directories. # TODO: update for 18.04
 sudo tar cvpzf $BACKUP_FILE \
     --exclude=/$BACKUP_FILE \
     --exclude=/home/cillian/Android \
