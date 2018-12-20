@@ -7,15 +7,16 @@ fi
 # Sync Google Drive folders.
 function sync() {
     old_dir=$PWD
+    max_speed_kbs=256
 
     echo "*****"
     cd /home/cillian/drive/work/
-    grive
+    grive -P -U $max_speed_kbs -D $max_speed_kbs
     echo "*****"
 
     echo "*****"
     cd /home/cillian/drive/personal/
-    grive
+    grive -P -U $max_speed_kbs -D $max_speed_kbs
     echo "*****"
 
     cd $old_dir

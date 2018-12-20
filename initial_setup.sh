@@ -49,4 +49,4 @@ sudo apt-get install solaar
 https://insync.io/marker
 
 # Install DatabaseVisualizer - download & install .deb package from
-https://www.dbvis.com/download/ 
+https://www.dbvis.com/download
