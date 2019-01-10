@@ -1,3 +1,6 @@
+# Comprehensive setup guide:
+https://github.com/M0Rf30/android-udev-rules
+
 # Install Android Debug Bridge (adb) to issue commands to the physical hardware.
 sudo apt-get install android-tools-adb
 
