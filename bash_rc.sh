@@ -37,7 +37,7 @@ export JAVA_HOME="$JAVA_8"
 export JDK_HOME="$JAVA_HOME"
 export STUDIO_JDK="$JAVA_8"
 export HEIMDALL_HOME="/opt/Heimdall"
-export FLUTTER_HOME="/opt/flutter/1.0.0"
+export FLUTTER_HOME="/opt/flutter/stable"
 
 # Path.
 export PATH="$JAVA_HOME/bin/:$PATH"
