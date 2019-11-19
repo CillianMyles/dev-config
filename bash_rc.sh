@@ -12,7 +12,7 @@ fi
 # Sync Google Drive folders.
 function sync() {
     old_dir=$PWD
-    max_speed_kbs=256
+    max_speed_kbs=64
 
     echo "*****"
     cd /home/cillian/drive/work/
@@ -31,8 +31,9 @@ function sync() {
 export JAVA_8="/usr/lib/jvm/java-8-openjdk-amd64"
 export ANDROID_HOME="/home/cillian/Android/Sdk"
 export STUDIO_HOME="/snap/android-studio/current/android-studio"
+export STUDIO_BETA_HOME="/opt/intellij/android-studio/beta"
 export IDEA_HOME="/snap/intellij-idea-community/current"
-export GRADLE_HOME="/opt/gradle/4.6"
+export GRADLE_HOME="/opt/gradle/5.4.1"
 export JAVA_HOME="$JAVA_8"
 export JDK_HOME="$JAVA_HOME"
 export STUDIO_JDK="$JAVA_8"
@@ -50,5 +51,13 @@ export PATH="$HEIMDALL_HOME/build/bin:$PATH"
 export PATH="$FLUTTER_HOME/bin:$PATH"
 
 # Aliases.
-alias astudio="$STUDIO_HOME/bin/studio.sh"
 alias idea="$IDEA_HOME/bin/idea.sh"
+alias astudio="$STUDIO_HOME/bin/studio.sh"
+alias bstudio="$STUDIO_BETA_HOME/bin/studio.sh"
+
+# NVM stuff.
+export NVM_DIR="/home/cillian/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# RBENV stuff.
+eval "$(rbenv init -)"
