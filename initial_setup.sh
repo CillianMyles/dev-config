@@ -20,10 +20,10 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Install some essential packages.
-sudo apt-get install git mc keepass2 gimp shutter filezilla wireshark meld pidgin
+sudo apt-get install git mc keepass2 gimp shutter filezilla wireshark meld pidgin tree
 
 # Some more (using snap format).
-snap install postman-snaped
+snap install postman-snaped tldr
 
 # Install flux (brightness tool) - install instructions:
 https://github.com/xflux-gui/fluxgui
