@@ -43,7 +43,7 @@ export FLUTTER_HOME="/opt/flutter/stable"
 # Path.
 export PATH="$JAVA_HOME/bin/:$PATH"
 export PATH="$STUDIO_HOME/bin/:$PATH"
-export PATH="$ANDROID_HOME/tools/:$PATH"
+export PATH="$ANDROID_HOME/emulator/:$PATH"
 export PATH="$ANDROID_HOME/platform-tools/:$PATH"
 export PATH="$GRADLE_HOME/bin/:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
