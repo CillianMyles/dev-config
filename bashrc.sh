@@ -16,12 +16,12 @@ function sync() {
 
     echo "*****"
     cd /home/cillian/drive/work/
-    grive -P -U $max_speed_kbs -D $max_speed_kbs
+    grive --progress-bar #--upload-speed $max_speed_kbs --download-speed $max_speed_kbs
     echo "*****"
 
     echo "*****"
     cd /home/cillian/drive/personal/
-    grive -P -U $max_speed_kbs -D $max_speed_kbs
+    grive --progress-bar #--upload-speed $max_speed_kbs --download-speed $max_speed_kbs
     echo "*****"
 
     cd $old_dir
