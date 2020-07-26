@@ -20,7 +20,7 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Install some essential packages
-sudo apt install git mc keepass2 gimp filezilla wireshark meld pidgin tree peek sqlitebrowser
+sudo apt install git mc conky keepass2 gimp filezilla wireshark meld pidgin tree peek sqlitebrowser
 
 # Some more (using snap format)
 sudo snap install postman tldr-luk3yx keepassxc shutter
