@@ -20,10 +20,10 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Install some essential packages
-sudo apt install git mc keepass2 gimp shutter filezilla wireshark meld pidgin tree
+sudo apt install git mc keepass2 gimp filezilla wireshark meld pidgin tree peek
 
 # Some more (using snap format)
-sudo snap install postman-snaped tldr keepassxc
+sudo snap install postman tldr-luk3yx keepassxc shutter
 
 # Install flux (brightness tool) - install instructions:
 https://github.com/xflux-gui/fluxgui
@@ -32,11 +32,6 @@ https://github.com/xflux-gui/fluxgui
 sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
 sudo apt update
 sudo apt install sqlitebrowser
-
-# Install Peek (screen recorder) tool
-sudo add-apt-repository ppa:peek-developers/stable
-sudo apt update
-sudo apt install peek
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys/
@@ -48,10 +43,17 @@ sudo apt install solaar
 # Franz -- web search
 # Gradle -- web search
 
-## DEPRECATED (all below)
+##############################
+### DEPRECATED (all below) ###
+##############################
 
 # Install Marker (screenshot annotation/sharing service) - download from:
 https://insync.io/marker
 
 # Install DatabaseVisualizer - download & install .deb package from
 https://www.dbvis.com/download
+
+# Install Peek (screen recorder) tool
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update
+sudo apt install peek
