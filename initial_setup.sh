@@ -20,40 +20,41 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Install some essential packages
-sudo apt install git mc keepass2 gimp filezilla wireshark meld pidgin tree peek
+sudo apt install git mc keepass2 gimp filezilla wireshark meld pidgin tree peek sqlitebrowser
 
 # Some more (using snap format)
 sudo snap install postman tldr-luk3yx keepassxc shutter
 
-# Install flux (brightness tool) - install instructions:
-https://github.com/xflux-gui/fluxgui
-
-# Install SQLiteBrowser tool
-sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
-sudo apt update
-sudo apt install sqlitebrowser
-
 # Set up SSH key for GitHub >> Tutorial
-https://help.github.com/articles/generating-ssh-keys/
+https://help.github.com/articles/generating-ssh-keys
 
-# Hardware specific
+# Hardware specific (Logitech)
 sudo apt install solaar
 
 # Google Chrome -- web search
 # Franz -- web search
 # Gradle -- web search
 
+
 ##############################
 ### DEPRECATED (all below) ###
 ##############################
 
-# Install Marker (screenshot annotation/sharing service) - download from:
-https://insync.io/marker
-
-# Install DatabaseVisualizer - download & install .deb package from
-https://www.dbvis.com/download
+# Install flux (brightness tool) - install instructions:
+https://github.com/xflux-gui/fluxgui
 
 # Install Peek (screen recorder) tool
 sudo add-apt-repository ppa:peek-developers/stable
 sudo apt update
 sudo apt install peek
+
+# Install SQLiteBrowser tool
+sudo add-apt-repository ppa:linuxgndu/sqlitebrowser
+sudo apt update
+sudo apt install sqlitebrowser
+
+# Install DatabaseVisualizer - download & install .deb package from
+https://www.dbvis.com/download
+
+# Install Marker (screenshot annotation/sharing service) - download from:
+https://insync.io/marker
