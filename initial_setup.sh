@@ -19,11 +19,17 @@ java -version
 # Java(TM) SE Runtime Environment (build 1.8.0_XYZ)
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
-# Install some essential packages
-sudo apt install git mc conky keepass2 gimp filezilla wireshark meld pidgin tree peek sqlitebrowser
+# Essential packages
+sudo apt install keepass2 conky mc peek
+
+# Developement packages
+sudo apt install git git-flow sqlitebrowser meld
+
+# More useful tools
+gimp filezilla wireshark pidgin tree
 
 # Some more (using snap format)
-sudo snap install postman tldr-luk3yx keepassxc shutter
+sudo snap install postman keepassxc shutter
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys
@@ -34,6 +40,8 @@ sudo apt install solaar
 # Google Chrome -- web search
 # Franz -- web search
 # Gradle -- web search
+
+# TODO: tldr (snap called 'tldr-luk3yx' doesn't work?)
 
 
 ##############################
