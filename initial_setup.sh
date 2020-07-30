@@ -20,16 +20,16 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Essential packages
-sudo apt install keepass2 conky mc peek
+sudo apt install keepass2 conky tldr tree mc peek
 
 # Developement packages
 sudo apt install git git-flow sqlitebrowser meld
 
 # More useful tools
-gimp filezilla wireshark pidgin tree
+sudo apt install gimp filezilla wireshark pidgin
 
 # Some more (using snap format)
-sudo snap install postman keepassxc shutter
+sudo snap install keepassxc postman shutter
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys
@@ -40,8 +40,6 @@ sudo apt install solaar
 # Google Chrome -- web search
 # Franz -- web search
 # Gradle -- web search
-
-# TODO: tldr (snap called 'tldr-luk3yx' doesn't work?)
 
 
 ##############################
