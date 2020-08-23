@@ -20,7 +20,7 @@ java -version
 # Java HotSpot(TM) 64-Bit Server VM (build XYZ, mixed mode)
 
 # Essential packages
-sudo apt install keepass2 conky tldr tree mc peek
+sudo apt install conky tldr tree mc peek xclip
 
 # Developement packages
 sudo apt install git git-flow sqlitebrowser meld
@@ -29,7 +29,7 @@ sudo apt install git git-flow sqlitebrowser meld
 sudo apt install gimp filezilla wireshark pidgin
 
 # Some more (using snap format)
-sudo snap install keepassxc postman shutter
+sudo snap install bitwarden postman shutter
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys
@@ -41,10 +41,16 @@ sudo apt install solaar
 # Franz -- web search
 # Gradle -- web search
 
+# TODO: remote drive sync (dropbox, google drive, wd mycloud, elephant drive, rclone)
+
 
 ##############################
 ### DEPRECATED (all below) ###
 ##############################
+
+# Previous password manager
+sudo apt install keepass2
+sudo snap install keepassxc
 
 # Install flux (brightness tool) - install instructions:
 https://github.com/xflux-gui/fluxgui
