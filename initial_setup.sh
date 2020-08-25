@@ -29,7 +29,7 @@ sudo apt install git git-flow sqlitebrowser meld
 sudo apt install gimp filezilla wireshark pidgin
 
 # Some more (using snap format)
-sudo snap install bitwarden postman shutter
+sudo snap install bitwarden bw postman shutter
 
 # Set up SSH key for GitHub >> Tutorial
 https://help.github.com/articles/generating-ssh-keys
@@ -44,9 +44,9 @@ sudo apt install solaar
 # TODO: remote drive sync (dropbox, google drive, wd mycloud, elephant drive, rclone)
 
 
-##############################
-### DEPRECATED (all below) ###
-##############################
+#####################################
+### DEPRECATED (no longer needed) ###
+#####################################
 
 # Previous password manager
 sudo apt install keepass2
