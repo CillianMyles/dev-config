@@ -1,5 +1,3 @@
-# Log in with Apple ID
-
-# Restore from Time Machine backup
-
-# Enable Time Machine backup
+# log in with Apple ID
+# restore from Time Machine backup
+# enable Time Machine backup

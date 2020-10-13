@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# Check the current version of the snap package
+# force empty the swap
+function emptySwap() {
+    sudo swapoff -a && sudo swapon -a
+}
+
+# check the current version of the snap package
 function snapVersion() {
     package=$1
     cat "/snap/$package/current/meta/snap.yaml" | grep version:
@@ -18,16 +23,11 @@ function sublimeVersion() {
     snapVersion "sublime-text"
 }
 
-# Force empty the swap.
-function emptySwap() {
-    sudo swapoff -a && sudo swapon -a
-}
-
 ################################################
 ### OLD / ARCHIVED / NO LONGER USED / BROKEN ###
 ################################################
 
-# NO LONGER NEEDED - new updates to kernal fixed the issue that created a need for this script.
+# NO LONGER NEEDED -> new updates to kernal fixed the issue that created a need for this script
 function updateWifi() {
     old_dir=$PWD
     destination="/home/cillian/wireless/backports-20150923"

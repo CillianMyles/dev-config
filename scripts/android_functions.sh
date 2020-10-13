@@ -1,21 +1,21 @@
 #!/bin/bash
 
-# Show details of debug keystore.
+# shows a details of debug keystore
 function debugKey() {
     keytool -exportcert -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey
 }
 
-# Update SharedPrefs for application id below.
+# updates SharedPrefs for application id below
 function examplePrefs() {
     updatePrefs "com.example" "com.example.prefs.xml"
 }
 
-# Update SQLite database for application id below.
+# updates SQLite database for application id below
 function exampleDB() {
     updateDB "com.example" "example.db"
 }
 
-# Deletes SharedPrefs on desktop & pulls new one from emulator.
+# deletes SharedPrefs on desktop & pulls new one from emulator
 function updatePrefs() {
     application_id=$1
     file_name=$2
@@ -24,7 +24,7 @@ function updatePrefs() {
     updateFile $file_name $application_id $folder
 }
 
-# Deletes SQLite database on desktop & pulls new one from emulator.
+# deletes SQLite database on desktop & pulls new one from emulator
 function updateDB() {
     application_id=$1
     file_name=$2
@@ -33,7 +33,7 @@ function updateDB() {
     updateFile $file_name $application_id $folder
 }
 
-# Deletes file on desktop & pulls new one from emulator.
+# deletes file on desktop & pulls new one from emulator
 function updateFile() {
     old_dir=$PWD
     file_name=$1
@@ -54,8 +54,8 @@ function updateFile() {
     cd $old_dir
 }
 
-# Preform a given gradle command, using the 'keyfile.keystore' file to sign if needed.
-# e.g. keyCommand assembleRelease - will create signed APK of each flavour.
+# perform a given gradle command, using the 'keyfile.keystore' file to sign if needed
+# e.g. keyCommand assembleRelease - will create signed APK of each flavour
 function keyCommand() { 
     KEYFILE="/path/to/keyfile.keystore"
     STORE_PASSWORD="myPassword"
@@ -76,7 +76,7 @@ function keyCommand() {
 ### OLD / ARCHIVED / NO LONGER USED / BROKEN ###
 ################################################
 
-# Force kill all active emulators.
+# force kill all active emulators
 function emuKill() {
     adb devices | grep "emulator-" | while read -r line ; do
         suffix="    device"
