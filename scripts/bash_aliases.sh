@@ -1,0 +1,16 @@
+#!/bin/bash
+
+alias gs='git status '
+alias gd='git diff '
+alias ga='git add '
+alias gaa='git add -A '
+alias gb='git branch '
+alias gc='git commit '
+alias gcm='git commit -m '
+alias gch='git checkout '
+alias gpull='git pull '
+alias gpush='git push '
+alias gr='git reset '
+alias grh='git reset --hard '
+alias gl='git log '
+alias gcp='git cherry-pick '
