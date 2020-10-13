@@ -5,8 +5,8 @@ if [ -f ~/git/config/personal/dev-config/macos/rc_exports.sh ]; then
 fi
 
 # add aliases
-if [ -f ~/git/config/personal/dev-config/scripts/bash_aliases.sh ]; then
-    . ~/git/config/personal/dev-config/scripts/bash_aliases.sh
+if [ -f ~/git/config/personal/dev-config/common/bash_aliases.sh ]; then
+    . ~/git/config/personal/dev-config/common/bash_aliases.sh
 fi
 
 # add android functions
