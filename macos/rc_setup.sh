@@ -10,6 +10,6 @@ if [ -f ~/git/config/personal/dev-config/scripts/android_functions.sh ]; then
 fi
 
 # add mac functions
-if [ -f ~/git/config/personal/dev-config/macos/bash_aliases.sh ]; then
-    . ~/git/config/personal/dev-config/macos/bash_aliases.sh
+if [ -f ~/git/config/personal/dev-config/macos/bash_functions.sh ]; then
+    . ~/git/config/personal/dev-config/macos/bash_functions.sh
 fi
