@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# deletes SharedPrefs on desktop & pulls new one from emulator
+# change the name of your computer e.g. from stock 'Cillian's-MBP'
 function renameComputer() {
     new_name=$1
     
-    # fully qualified hotname e.g. new_name.domain.com
-    echo "Changing fully qualified hotname..."
+    # fully qualified hostname e.g. new_name.domain.com
+    echo "Changing fully qualified hostname..."
     sudo scutil --set HostName $new_name
 
     # bonjour hostname e.g. new_name.local
