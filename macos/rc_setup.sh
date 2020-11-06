@@ -1,4 +1,3 @@
-
 # add environment variables, update path
 if [ -f ~/git/config/personal/dev-config/macos/rc_exports.sh ]; then
     . ~/git/config/personal/dev-config/macos/rc_exports.sh
