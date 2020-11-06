@@ -6,4 +6,5 @@
 
 # add contents of rc.sh to bottom of .profile .bashrc .zshrc files
 
-# install essential packages e.g. git
+# source your .profile .bashrc .zshrc
+source .rc_file_name

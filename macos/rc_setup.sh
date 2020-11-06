@@ -13,3 +13,6 @@ fi
 if [ -f ~/git/config/personal/dev-config/macos/bash_functions.sh ]; then
     . ~/git/config/personal/dev-config/macos/bash_functions.sh
 fi
+
+# ruby, rbenv, ruby-build
+eval "$(rbenv init -)"
