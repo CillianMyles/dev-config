@@ -3,7 +3,7 @@
 ####################
 
 brew cask install intellij-idea-ce
-
+brew install --cask keycastr
 
 #####################
 ### via app store ###
