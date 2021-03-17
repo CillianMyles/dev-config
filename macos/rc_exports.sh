@@ -9,6 +9,7 @@ export IDEA_HOME="/Applications/IntelliJ IDEA CE.app/Contents"
 export FLUTTER_HOME="$HOME/git/flutter/google/flutter"
 export DART_HOME="/usr/local/Cellar/dart/2.10.2"
 export GO_HOME="/usr/local/go"
+export GOPATH="$HOME/dev/go"
 export CODEGEN_HOME="/usr/local/opt/swagger-codegen@2"
 
 # path
