@@ -4,13 +4,21 @@ flutter test
 flutter test --coverage
 flutter format .
 flutter format -n --set-exit-if-changed .
+
+# publishing
 flutter packages pub publish --dry-run
 flutter packages pub publish
+flutter pub global run dartdoc:dartdoc
+pub global activate dartdoc
+dartdoc
+
+# git submodules
+git submodule update --init
 
 # code gen -> freezed
 flutter packages pub run build_runner build
-flutter packages pub run build_runner watch
 flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter packages pub run build_runner watch
 flutter packages pub run build_runner watch --delete-conflicting-outputs
 
 # debug tools
