@@ -14,12 +14,24 @@ dartdoc
 
 # git submodules
 git submodule update --init
+git submodule foreach git reset --hard
 
 # code gen -> freezed
 flutter packages pub run build_runner build
 flutter packages pub run build_runner build --delete-conflicting-outputs
 flutter packages pub run build_runner watch
 flutter packages pub run build_runner watch --delete-conflicting-outputs
+
+# melos
+flutter pub global activate melos
+flutter pub global run melos bootstrap
+flutter pub global run melos analyze
+flutter pub global run melos test
+
+# nativeshell/cargo/rust updates
+eval `ssh-agent -s`
+ssh-add
+cargo build
 
 # debug tools
 remotedev --port 8000 # -> http://localhost:8000
