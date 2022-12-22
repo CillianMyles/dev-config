@@ -12,6 +12,7 @@ export PUB_CACHE_HOME="$HOME/.pub-cache"
 export GO_HOME="/usr/local/go"
 export GOPATH="$HOME/dev/go"
 export CODEGEN_HOME="/usr/local/opt/swagger-codegen@2"
+export GPG_TTY=$(tty)
 
 # path
 export PATH="$PATH:$JAVA_HOME/bin"
