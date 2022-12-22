@@ -40,7 +40,7 @@ dartdoc
 git submodule update --init
 git submodule foreach git reset --hard
 
-# code gen -> freezed
+# code gen -> freezed, json serializable
 flutter packages pub run build_runner build
 flutter packages pub run build_runner build --delete-conflicting-outputs
 flutter packages pub run build_runner watch
