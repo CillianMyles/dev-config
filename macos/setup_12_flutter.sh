@@ -8,3 +8,5 @@ git clone https://github.com/flutter/flutter.git -b stable
 # update rc_exports.sh
 export FLUTTER_HOME="$HOME/git/flutter/google/flutter"
 export PATH="$PATH:$FLUTTER_HOME/bin"
+
+# add flutter plugins to IDEs e.g. intellij, vscode

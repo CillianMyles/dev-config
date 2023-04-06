@@ -4,3 +4,6 @@
 export JAVA_ASTUDIO="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
 export JAVA_HOME="$JAVA_ASTUDIO"
 export PATH="$PATH:$JAVA_HOME/bin"
+
+# follow flutter instructions to fix toolchain issues
+flutter doctor -v
