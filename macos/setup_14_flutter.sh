@@ -5,6 +5,6 @@ cd ~/git/flutter/google/
 # download stable branch
 git clone https://github.com/flutter/flutter.git -b stable
 
-# add to rc_exports.sh
+# update rc_exports.sh
 export FLUTTER_HOME="$HOME/git/flutter/google/flutter"
 export PATH="$PATH:$FLUTTER_HOME/bin"
