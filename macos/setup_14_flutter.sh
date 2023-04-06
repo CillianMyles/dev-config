@@ -2,7 +2,7 @@
 mkdir -p ~/git/flutter/google/
 cd ~/git/flutter/google/
 
-# download stable branch from GitHub
+# download stable branch
 git clone https://github.com/flutter/flutter.git -b stable
 
 # add to rc_exports.sh
