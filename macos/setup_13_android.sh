@@ -7,3 +7,8 @@ export PATH="$PATH:$JAVA_HOME/bin"
 
 # follow flutter instructions to fix toolchain issues
 flutter doctor -v
+
+# set up an emulator via AStudio -> device manager
+
+# make sure it works by launching it
+flutter devices
