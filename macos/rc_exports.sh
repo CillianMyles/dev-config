@@ -12,6 +12,8 @@ export STUDIO_JDK="$JAVA_HOME"
 
 # path
 export PATH="$PATH:$JAVA_HOME/bin"
+export PATH="$PATH:$IDEA_HOME/bin"
 export PATH="$PATH:$FLUTTER_HOME/bin"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
+export PATH="$PATH:$STUDIO_HOME/bin"
