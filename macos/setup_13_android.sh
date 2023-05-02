@@ -1,14 +1,16 @@
 # install android studio via intellij toolboox
 
-# update rc_exports.sh
-export JAVA_ASTUDIO="/Applications/Android Studio.app/Contents/jre/jdk/Contents/Home"
-export JAVA_HOME="$JAVA_ASTUDIO"
-export PATH="$PATH:$JAVA_HOME/bin"
-
 # follow flutter instructions to fix toolchain issues
 flutter doctor -v
 
-# set up an emulator via AStudio -> device manager
+# use android studio to:
+#  -> install android sdk
+#  -> create an emulator via device manager
 
 # make sure it works by launching it
 flutter devices
+
+# update rc_exports.sh
+export ANDROID_HOME="/Users/cillian/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_HOME/emulator"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
