@@ -5,6 +5,7 @@
 brew install --cask bitwarden
 brew install --cask brave-browser
 brew install --cask dropbox
+brew install --cask obsidian
 brew install --cask notion
 brew install --cask slack
 brew install --cask zoom

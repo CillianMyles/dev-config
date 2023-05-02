@@ -39,6 +39,7 @@ dartdoc
 # git submodules
 git submodule update --init
 git submodule foreach git reset --hard
+git submodule deinit -f .
 
 # code gen -> freezed, json serializable
 flutter packages pub run build_runner build
