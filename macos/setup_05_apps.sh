@@ -13,6 +13,7 @@ brew install --cask loom
 brew install --cask keycastr
 brew install --cask raycast
 brew install --cask marta
+brew install --cask cheatsheet
 brew install --cask gimp
 brew install --cask vlc
 
