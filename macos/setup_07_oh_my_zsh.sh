@@ -3,7 +3,8 @@
 # themes -> https://github.com/ohmyzsh/ohmyzsh/wiki/Themes 
 # agnoster -> https://inspirnathan.com/posts/22-install-ohmyzsh-with-agnoster-theme
 # fonts -> https://github.com/powerline/fonts -> ./install.sh
-# apply font "Source Code Pro for Powerline" -> terminal, iTerm2, vs code, android studio?
+# apply font "Roboto Mono for Powerline 12" -> terminal, iTerm2, vs code, intellij
+# turn on "Antialias text" in terminal
 
 # plugins -> https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins
 # git -> https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git

@@ -1,3 +1,3 @@
 # bitwarden (password management)
-brew install bitwarden
+brew install --cask bitwarden
 brew install bitwarden-cli
