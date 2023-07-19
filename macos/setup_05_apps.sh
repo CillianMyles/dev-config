@@ -8,6 +8,7 @@ brew install --cask dropbox
 brew install --cask obsidian
 brew install --cask notion
 brew install --cask slack
+brew install --cask discord
 brew install --cask zoom
 brew install --cask loom
 brew install --cask keycastr
