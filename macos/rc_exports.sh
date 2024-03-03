@@ -1,7 +1,8 @@
 # environment variables
 export JAVA_OPEN_JDK="/opt/homebrew/opt/openjdk"
 export JAVA_11="/opt/homebrew/opt/openjdk@11"
-export JAVA_HOME="$JAVA_11"
+export JAVA_17="/opt/homebrew/opt/openjdk@17"
+export JAVA_HOME="$JAVA_17"
 export IDEA_HOME="Applications/JetBrains Toolbox/IntelliJ IDEA Community Edition.app/Contents"
 export IDEA_JDK="$JAVA_HOME"
 export FLUTTER_HOME="$HOME/git/flutter/google/flutter"
