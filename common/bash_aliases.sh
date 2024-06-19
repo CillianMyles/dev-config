@@ -36,14 +36,26 @@ alias fwd='./flutterw doctor'
 alias fpg='flutter pub get'
 alias fwpg='./flutterw pub get'
 
+alias ff='flutter format .'
+alias fwf='./flutterw format .'
+
+alias fa='flutter analyze'
+alias fwa='./flutterw analyze'
+
 alias fcl='flutter clean'
 alias fwcl='./flutterw clean'
+
+alias fcg='flutter pub run build_runner build --delete-conflicting-outputs'
+alias fwcg='.flutter/bin/dart pub run build_runner build --delete-conflicting-outputs'
 
 alias fmbs='flutter pub run melos bs'
 alias fwmbs='.flutter/bin/dart pub run melos bs'
 
-alias fcg='flutter pub run build_runner build --delete-conflicting-outputs'
-alias fwcg='.flutter/bin/dart pub run build_runner build --delete-conflicting-outputs'
+alias fmf='flutter pub run melos format'
+alias fwmf='.flutter/bin/dart pub run melos format'
+
+alias fma='flutter pub run melos analyze'
+alias fwma='.flutter/bin/dart pub run melos analyze'
 
 alias fmcg='flutter pub run melos codegen'
 alias fwmcg='.flutter/bin/dart pub run melos codegen'
