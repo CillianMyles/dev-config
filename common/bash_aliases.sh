@@ -38,8 +38,8 @@ alias fwd='./flutterw doctor'
 alias fpg='flutter pub get'
 alias fwpg='./flutterw pub get'
 
-alias ff='flutter format .'
-alias fwf='./flutterw format .'
+alias ff='dart format .'
+alias fwf='.flutter/bin/dart format .'
 
 alias fa='flutter analyze'
 alias fwa='./flutterw analyze'
