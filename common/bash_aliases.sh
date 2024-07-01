@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Git
-
 alias gst='git status'
 alias gd='git diff'
 alias ga='git add'
@@ -28,36 +27,31 @@ alias gstash='git stash push -m'
 alias gspop='git stash pop'
 
 # Flutter
-
 alias fv='flutter --version'
-alias fwv='./flutterw --version'
-
 alias fd='flutter doctor'
-alias fwd='./flutterw doctor'
-
 alias fpg='flutter pub get'
-alias fwpg='./flutterw pub get'
-
 alias ff='dart format .'
-alias fwf='.flutter/bin/dart format .'
-
 alias fa='flutter analyze'
-alias fwa='./flutterw analyze'
-
 alias fcl='flutter clean'
-alias fwcl='./flutterw clean'
-
 alias fcg='flutter pub run build_runner build --delete-conflicting-outputs'
+
+# Flutter Wrapper
+alias fwv='./flutterw --version'
+alias fwd='./flutterw doctor'
+alias fwpg='./flutterw pub get'
+alias fwf='.flutter/bin/dart format .'
+alias fwa='./flutterw analyze'
+alias fwcl='./flutterw clean'
 alias fwcg='.flutter/bin/dart pub run build_runner build --delete-conflicting-outputs'
 
+# Melos
 alias fmbs='flutter pub run melos bs'
-alias fwmbs='.flutter/bin/dart pub run melos bs'
-
 alias fmf='flutter pub run melos format'
-alias fwmf='.flutter/bin/dart pub run melos format'
-
 alias fma='flutter pub run melos analyze'
-alias fwma='.flutter/bin/dart pub run melos analyze'
-
 alias fmcg='flutter pub run melos codegen'
+
+# Melos + Wrapper
+alias fwmbs='.flutter/bin/dart pub run melos bs'
+alias fwmf='.flutter/bin/dart pub run melos format'
+alias fwma='.flutter/bin/dart pub run melos analyze'
 alias fwmcg='.flutter/bin/dart pub run melos codegen'
