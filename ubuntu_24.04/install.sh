@@ -2,4 +2,6 @@
 
 sudo apt update && sudo apt -y upgrade
 
-source ~/.local/share/dev-config/ubuntu_24.04/install/app-bitwarden.sh
+DIR="https://raw.githubusercontent.com/CillianMyles/dev-config/main/ubuntu_24.04"
+
+source "$DIR/install/app-bitwarden.sh"
