@@ -1,5 +1,36 @@
 #!/bin/bash
 
+# list Android emulators
+function emuList() {
+    emulator -list-avds
+}
+
+# start an emulator
+function emuStart() {
+    emulator -avd $1
+}
+
+# type text into emulator
+function emuType() {
+    adb shell input text $1
+}
+
+# list signing configs for app/vairants
+function signingReport() {
+    ./gradlew signingReport
+}
+
+# force kill all active emulators
+function emuKill() {
+    adb devices | grep "emulator-" | while read -r line ; do
+        suffix="    device"
+        emulatorInstanceName=${line%${suffix}}
+
+        echo "Killing $emulatorInstanceName"
+        adb -s ${emulatorInstanceName} emu kill
+    done
+}
+
 # shows a details of debug keystore
 function debugKey() {
     keytool -exportcert -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey
@@ -56,7 +87,7 @@ function updateFile() {
 
 # perform a given gradle command, using the 'keyfile.keystore' file to sign if needed
 # e.g. keyCommand assembleRelease - will create signed APK of each flavour
-function keyCommand() { 
+function keyCommand() {
     KEYFILE="/path/to/keyfile.keystore"
     STORE_PASSWORD="myPassword"
     KEY_ALIAS="myAlias"
@@ -70,19 +101,4 @@ function keyCommand() {
         -Pandroid.injected.signing.key.alias=$KEY_ALIAS \
         -Pandroid.injected.signing.key.password=$KEY_PASSWORD
     printf "\n\nCommand $COMMAND finished...\n\n"
-}
-
-################################################
-### OLD / ARCHIVED / NO LONGER USED / BROKEN ###
-################################################
-
-# force kill all active emulators
-function emuKill() {
-    adb devices | grep "emulator-" | while read -r line ; do
-        suffix="    device"
-        emulatorInstanceName=${line%${suffix}}
-
-        echo "Killing $emulatorInstanceName"
-        adb -s ${emulatorInstanceName} emu kill
-    done
 }
