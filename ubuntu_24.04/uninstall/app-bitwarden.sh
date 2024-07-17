@@ -1,3 +1,3 @@
 #!/bin/bash
 
-snap remove bitwarden
+sudo snap remove bitwarden
