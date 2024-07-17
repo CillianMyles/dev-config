@@ -1,5 +1,9 @@
 # Ubuntu config
-Configuring Ubuntu 24.04 LTS desktop environment for development/general use.
+Configuring Ubuntu 24.04 LTS desktop environment for development/general use:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/CillianMyles/dev-config/main/ubuntu_24.04/install.sh | bash
+```
 
 # MacOS config
 Configuring MacOS desktop environment for development/general use.
