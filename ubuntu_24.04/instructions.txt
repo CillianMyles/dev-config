@@ -1,0 +1,4 @@
+1. install 24.04
+2. install Omakub
+3. install Bitwarden
+4. generate ssh key
