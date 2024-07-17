@@ -6,4 +6,4 @@ INSTALL_DIR="$FLAVOUR_DIR/install"
 
 sudo apt update && sudo apt -y upgrade
 
-source "$INSTALL_DIR/app-bitwarden.sh"
+source <(wget -qO- "$INSTALL_DIR/app-bitwarden.sh")
