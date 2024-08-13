@@ -15,7 +15,7 @@ function emuType() {
     adb shell input text $1
 }
 
-# list signing configs for app/vairants
+# list signing configs for app/variants
 function signingReport() {
     ./gradlew signingReport
 }
