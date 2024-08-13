@@ -48,10 +48,12 @@ alias fwcg='.flutter/bin/dart pub run build_runner build --delete-conflicting-ou
 alias fmbs='flutter pub run melos bs'
 alias fmf='flutter pub run melos format'
 alias fma='flutter pub run melos analyze'
+alias fmcl='flutter pub run melos clean'
 alias fmcg='flutter pub run melos codegen'
 
 # Melos + Wrapper
 alias fwmbs='.flutter/bin/dart pub run melos bs'
 alias fwmf='.flutter/bin/dart pub run melos format'
 alias fwma='.flutter/bin/dart pub run melos analyze'
+alias fwmcl='.flutter/bin/dart pub run melos clean'
 alias fwmcg='.flutter/bin/dart pub run melos codegen'
