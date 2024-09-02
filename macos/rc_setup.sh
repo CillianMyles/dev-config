@@ -20,3 +20,6 @@ fi
 
 # ruby, rbenv, ruby-build
 eval "$(rbenv init -)"
+
+# direnv
+eval "$(direnv hook zsh)"
