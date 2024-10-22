@@ -4,6 +4,5 @@
 go version
 
 # update rc_exports.sh
-export GO_HOME="/usr/local/go"
-export GOPATH="$HOME/dev/go"
-export PATH="$PATH:$GO_HOME/bin"
+export GOPATH="/Users/cillian/go"
+export PATH="$PATH:$GOPATH/bin"

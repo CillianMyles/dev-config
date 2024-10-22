@@ -10,6 +10,7 @@ export PUB_CACHE_HOME="$HOME/.pub-cache"
 export ANDROID_HOME="/Users/cillian/Library/Android/sdk"
 export STUDIO_HOME="Applications/JetBrains Toolbox/Android Studio.app/Contents"
 export STUDIO_JDK="$JAVA_HOME"
+export GOPATH="/Users/cillian/go"
 
 # path
 export PATH="$PATH:$JAVA_HOME/bin"
@@ -19,3 +20,4 @@ export PATH="$PATH:$PUB_CACHE_HOME/bin"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$STUDIO_HOME/bin"
+export PATH="$PATH:$GOPATH/bin"
