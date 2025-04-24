@@ -23,3 +23,13 @@ eval "$(rbenv init -)"
 
 # direnv
 eval "$(direnv hook zsh)"
+
+# google cloud sdk: path
+if [ -f '/opt/homebrew/Caskroom/google-cloud-sdk/latest/path.zsh.inc' ]; then
+  source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/path.zsh.inc'
+fi
+
+# google cloud sdk: completion
+if [ -f '/opt/homebrew/Caskroom/google-cloud-sdk/latest/completion.zsh.inc' ]; then
+  source '/opt/homebrew/Caskroom/google-cloud-sdk/latest/completion.zsh.inc'
+fi
