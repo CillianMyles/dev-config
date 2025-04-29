@@ -25,6 +25,8 @@ alias gcp='git cherry-pick'
 alias grv='git revert'
 alias gstash='git stash push -m'
 alias gspop='git stash pop'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
 
 # Flutter
 alias fv='flutter --version'
