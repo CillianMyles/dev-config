@@ -36,11 +36,9 @@ brew install --cask whatsapp
 ####################
 
 # chrome -> https://www.google.com/chrome
-# drive -> https://www.google.com/intl/en_fj/drive/download 
-# linear -> https://linear.app/download
 # logitech -> https://www.logitech.com/en-eu/software/logi-options-plus.html
 # setapp -> https://my.setapp.com
-# jetbrains toolbox ->
+# jetbrains -> https://www.jetbrains.com/toolbox-app/
 
 
 ###############
@@ -59,6 +57,8 @@ brew install --cask whatsapp
 # magnet -> https://apps.apple.com/ie/app/magnet/id441258766?mt=12
 # twitter -> https://apps.apple.com/ie/app/twitter/id1482454543?mt=12
 # filezilla -> https://apps.apple.com/ie/app/filezilla-pro-ftp-and-cloud/id1298486723?mt=12
+# drive -> https://www.google.com/intl/en_fj/drive/download 
+# linear -> https://linear.app/download
 # brew install --cask firefox
 # brew install --cask intellij-idea-ce
 # brew install --cask android-studio
