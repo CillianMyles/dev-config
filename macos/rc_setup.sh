@@ -19,10 +19,14 @@ if [ -f ~/git/config/personal/dev-config/macos/bash_functions.sh ]; then
 fi
 
 # ruby, rbenv, ruby-build
-eval "$(rbenv init -)"
+if command -v rbenv >/dev/null 2>&1; then
+    eval "$(rbenv init -)"
+fi
 
 # direnv
-eval "$(direnv hook zsh)"
+if command -v direnv >/dev/null 2>&1; then
+    eval "$(direnv hook zsh)"
+fi
 
 # google cloud sdk: path
 if [ -f '/opt/homebrew/Caskroom/google-cloud-sdk/latest/path.zsh.inc' ]; then

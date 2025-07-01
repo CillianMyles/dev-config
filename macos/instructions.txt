@@ -1,5 +1,9 @@
 1. download Bitward from app store (so Safari extension works)
 2. generate SSH key (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 3. clone this repo
-4. download Xcode from app store
-5. install homebrew (https://brew.sh)
+4. rename computer
+5. download Xcode from app store
+6. install homebrew (https://brew.sh)
+7. install apps
+8. install CLIs
+9. install tools/sdks for development
