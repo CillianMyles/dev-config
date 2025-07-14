@@ -20,6 +20,7 @@ brew install --cask sublime-text
 brew install --cask visual-studio-code
 brew install --cask cursor
 brew install --cask postman
+brew install --cask github
 brew install --cask signal
 brew install --cask whatsapp
 
