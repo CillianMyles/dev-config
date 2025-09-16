@@ -23,6 +23,7 @@ brew install --cask postman
 brew install --cask github
 brew install --cask signal
 brew install --cask whatsapp
+brew install --cask logi-options+
 
 
 #####################
