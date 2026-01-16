@@ -14,6 +14,7 @@ export STUDIO_JDK="$JAVA_HOME"
 export GOPATH="/Users/cillian/go"
 
 # path
+export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$JAVA_HOME/bin"
 export PATH="$PATH:$IDEA_HOME/bin"
 export PATH="$PATH:$FLUTTER_HOME/bin"
