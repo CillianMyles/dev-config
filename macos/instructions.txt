@@ -7,3 +7,6 @@
 7. install apps
 8. install CLIs
 9. install tools/sdks for development
+10. install coding agents and fleet tooling (setup_18_agents.sh)
+
+to update later: update.sh
